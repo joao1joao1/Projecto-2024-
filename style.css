@@ -112,3 +112,35 @@ body {
 }
 
 /* ESSAS MODIFICAÇÕES (para as div's) PODERIAM (AO CERTO DEVERIAM) ESTAR EM UMA SÓ CLASS, DARIAM O MESMO RESULTADO, "mas saiba que uma tag pode fazer parte de várias classes"  */
+
+.terceira-seçao > div{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    /* "gap" trás distância entre elementos selecionados pelo display */
+    margin-bottom: 2rem;
+}
+
+.terceira-seçao img {
+    max-width: 6.25rem;
+}
+
+.terceira-seçao strong {
+    color: var(--silver);
+    font-size: 2rem;
+    line-height: 100%;
+}
+
+.terceira-seçao h2 {
+    font-size: 1.125rem;
+    font-weight: 800;
+    color: var(--darkblue);
+    line-height: 1.5rem;
+    margin-block: 0.6rem ;
+}
+
+.terceira-seçao p {
+    font-size: 0.9375rem;
+    line-height: 1.625rem;
+    color: var(--gunmetal);
+}
