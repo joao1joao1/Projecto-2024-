@@ -72,3 +72,43 @@ body {
     /* espaço entre as letras */
     line-height: 1.5rem;
 }
+
+.segunda-seçao {
+    background-color: var(--darkblue);
+    margin-bottom: 4rem;
+    padding: 1.5rem 1.1rem;
+}
+
+.segunda-seçao h2 {
+    font-size: 2rem;
+    line-height: 100%;
+    color: var(--yellow);
+    margin-bottom: 2.2rem;
+}
+.segunda-seçao h3 {
+    color: var(--almostwhite);
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.segunda-seçao p {
+    color: var(--silver);
+    font-size: 0.9375rem;
+    line-height: 1.625rem;
+}
+
+.bb {
+    border-bottom: 1px solid var(--gunmetal);
+}
+
+.mb {
+    margin-bottom: 1.75rem;
+}
+
+.pb {
+    padding-bottom: 1.75rem;
+}
+
+/* ESSAS MODIFICAÇÕES (para as div's) PODERIAM (AO CERTO DEVERIAM) ESTAR EM UMA SÓ CLASS, DARIAM O MESMO RESULTADO, "mas saiba que uma tag pode fazer parte de várias classes"  */
