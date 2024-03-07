@@ -22,7 +22,7 @@ body {
     background-color: var(--almostwhite);
 }
 
-body.menu-open::before {
+body.escurecer::before {
     /* body.menu-open::before
     SUPOSTO ELEMENTO ( Ñ EXISTE ) */
     content: "";
@@ -51,7 +51,7 @@ body.menu-open::before {
 .header-mobile nav {
     position: fixed;
     background-color: var(--almostwhite);
-    right: 0;
+    right: -16rem;
     top: 0;
     height: 100vh;
     width: 16rem;
@@ -63,6 +63,12 @@ body.menu-open::before {
     gap: 1.5rem;
     display: none;
     /* FIZ UM COMMIT LOGO EM SEGUIDA DEVIDO EU TER PEGADO A COLA DO ZAP POIS FIZ NA ESCOLA UMA PARTE DO PROJETO */
+
+    transition: 0.7s;
+}
+
+.header-mobile nav.abrir {
+    right: 0;
 }
 
 .header-mobile nav button {
